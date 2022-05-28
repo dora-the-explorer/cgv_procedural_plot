@@ -1,28 +1,65 @@
 
-\course{Computer Science}
-\matriculationyear{2020}
-\issuedate{1.4.2015}
-\duedate{1.10.2015}
+\course{Informatik}
+\matriculationyear{2018}
+\issuedate{25.04.2022}
+\duedate{11.07.2022}
 \professor{Prof. Dr. Stefan Gumhold}
 
 
 \begin{task}[] % If needed, a custom title can be provided between the brackets
-	\minisec{\objectivesname}\smallskip	
-	Momentan ist das besagte Thema in aller Munde. Insbesondere wird es
-	gerade in vielen~-- wenn nicht sogar in allen~-- Medien diskutiert.
-	Es ist momentan noch nicht abzusehen, ob und wann sich diese
-	Situation ändert. Eine kurzfristige Verlagerung aus dem Fokus
-	der Öffentlichkeit wird nicht erwartet.
-	Als Ziel dieser Arbeit soll identifiziert werden, warum das Thema
-	gerade so omnipräsent ist und wie dieser Effekt abgeschwächt werden
-	könnte. Zusätzlich sind Methoden zu entwickeln, mit denen sich ein
-	ähnlicher Vorgang zukünftig vermeiden lässt.\cite{Green2007}
+	\minisec{Motivation}\smallskip
+	Immersive Visualisierungen ermöglichen intuitives Erkunden und verstehen komplexer Daten,
+	jedoch müssen häufig auch klassische Ansichten wie Zeitreihenplots zu Navigations- und Übersichtszwecken
+	eingebettet werden. Die Teilelemente dieser Plots werden traditionell mittels eigener Geometrie dargestellt.
+	Mit dieser Technik muss bei jeder Veränderung des Plots mindestens die Geometrie der betroffenen
+	Teilelemente neu erzeugt werden. Bei Performanz-kritischen Echtzeitanwendungen, wie dem Streamen von
+	Live-Daten oder der dynamischen Interaktion mit dem Plot, will man jedoch diese Neuerzeugungen vermeiden.
+	Ein weiteres Problem sind visuelle Artefakte, die durch z-Fighting beim Layering der Geometrien entstehen können.
+	Eine mögliche Alternative ist das prozedurale Erzeugen der Plotstrukturen im Texturraum,
+	was sich auf modernen GPUs effizient auf Fragmentbasis implementieren lässt. Durch das Erzeugen im
+	Texturraum kann die dynamische Anpassung von Skalierung und Granularität der Achsen zur Interaktion mit
+	dem Plot, sowie das Nachladen von Live-Daten, effizient implementiert werden. Bei diesem Ansatz werden
+	alle Plotstrukturen auf einer einzigen Geometrie dargestellt, wodurch z-Fighting vermieden wird.
+	Ein weiterer Vorteil ist die triviale Umsetzung von Antialiasing beim Arbeiten auf Fragmentbasis.
+	
+	\minisec{Ziel der Arbeit}\smallskip	
+	Ziel der Bachelorarbeit ist es, eine Bibliothek zur Texturraum basierten Darstellung von Plots mit
+	OpenGL zu implementieren und abschließend die Implementierung in Bezug auf Funktion und Performance
+	zu analysieren. Dazu wird auch nach Strategien zur Dekoration von Plots in existierenden Plotbibliotheken
+	gesucht und die Umsetzbarkeit dieser im Texturraum diskutiert. Die Arbeit beschränkt sich dabei auf 2D Plots.
+	
+	\newpage	
 	
 	\minisec{\focusname}\smallskip
 	\begin{itemize}
-		\item Recherche \& Analyse
-		\item Entwicklung eines Konzeptes \& Anwendung der entwickelten Methodik
-		\item Dokumentation und grafische Aufbereitung der Ergebnisse
+		\item{Literaturrecherche:}
+		\begin{itemize}
+			\item{Prozedurales Rendering mit Fokus auf Texturraum}
+			\item{Strategien und Algorithmen zur Dekoration von Plots in etablierten Tools wie GnuPlut
+			und Excel oder Algebrasystemen wie Matlab, Mathematica und Maple}
+		\end{itemize}
+		\item{Analyse und Diskussion zur Anwendbarkeit existierender Methoden im Fragment Shader}
+		\item{Auswahl (ggf. Neudesign) und Implementierung geeigneter Methoden in Form eines Renderers
+		für das CGV-Framework mit folgenden Eigenschaften:}
+		\begin{itemize}
+			\item{Konfiguration über Render Styles}
+			\item{Layer-Prinzip zur Organisation der Plotkomponenten}
+			\item{Punkt- und linienbasierte Dekorationen}
+			\item{Schriftunterstützung für Achsen- und Tickmark-Labels}
+		\end{itemize}
+		\item{Evaluation und Diskussion des entwickelten Ansatzes}
+		\begin{itemize}
+			\item{qualitative Analyse der Renderingergebnisse (Artefakte etc.)}
+			\item{quantitative Analyse der Renderperformanz der Implementierung}
+		\end{itemize}
 	\end{itemize}
+	
+	\minisec{Optionales}\smallskip
+	\begin{itemize}
+		\item{blickpunktabhängige Adaption von Tickmarks und Gittern}
+		\item{blickpunktabhängige Textausrichtung}
+		\item{Titel, Untertitel oder komplett frei platzierbare Label mit beliebigem Text}
+	\end{itemize}
+	\bigskip
 \end{task}
 
