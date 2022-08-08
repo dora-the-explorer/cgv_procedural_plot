@@ -1,0 +1,341 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ynt/global//global/global}
+    \entry{Qin2006}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=b0bfa659dd9c06e41cb8e0799ec7f0ec}{%
+           family={Qin},
+           familyi={Q\bibinitperiod},
+           given={Zheng},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=168b5e630bfe86aa0c54f9cc2dc83ec6}{%
+           family={McCool},
+           familyi={M\bibinitperiod},
+           given={Michael\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=728c4389d9266f8bfd1623a27df286e9}{%
+           family={Kaplan},
+           familyi={K\bibinitperiod},
+           given={Craig\bibnamedelima S.},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{ACM} Press}%
+      }
+      \strng{namehash}{74fe4356df908f3e1671e990375221b4}
+      \strng{fullhash}{74fe4356df908f3e1671e990375221b4}
+      \strng{bibnamehash}{74fe4356df908f3e1671e990375221b4}
+      \strng{authorbibnamehash}{74fe4356df908f3e1671e990375221b4}
+      \strng{authornamehash}{74fe4356df908f3e1671e990375221b4}
+      \strng{authorfullhash}{74fe4356df908f3e1671e990375221b4}
+      \field{labelalpha}{QMK06}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2006 symposium on Interactive 3D graphics and games - {SI}3D {'}06}
+      \field{title}{Real-time texture-mapped vector glyphs}
+      \field{year}{2006}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1145/1111411.1111433
+      \endverb
+    \endentry
+    \entry{Green2007}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=6eaf40df0366e3a055dee01e950d1dc8}{%
+           family={Green},
+           familyi={G\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{ACM} Press}%
+      }
+      \strng{namehash}{6eaf40df0366e3a055dee01e950d1dc8}
+      \strng{fullhash}{6eaf40df0366e3a055dee01e950d1dc8}
+      \strng{bibnamehash}{6eaf40df0366e3a055dee01e950d1dc8}
+      \strng{authorbibnamehash}{6eaf40df0366e3a055dee01e950d1dc8}
+      \strng{authornamehash}{6eaf40df0366e3a055dee01e950d1dc8}
+      \strng{authorfullhash}{6eaf40df0366e3a055dee01e950d1dc8}
+      \field{labelalpha}{Gre07}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{ACM} {SIGGRAPH} 2007 courses on - {SIGGRAPH} {'}07}
+      \field{title}{Improved alpha-tested magnification for vector textures and special effects}
+      \field{year}{2007}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1145/1281500.1281665
+      \endverb
+    \endentry
+    \entry{Nehab2008}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9fd9e3063a8fb181fa2f47cd57a056f9}{%
+           family={Nehab},
+           familyi={N\bibinitperiod},
+           given={Diego},
+           giveni={D\bibinitperiod}}}%
+        {{hash=90fd9beea1c9006d7768540fc1fe8e40}{%
+           family={Hoppe},
+           familyi={H\bibinitperiod},
+           given={Hugues},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery ({ACM})}%
+      }
+      \strng{namehash}{6d0e1a75b4975b2fd79290ee8f383efa}
+      \strng{fullhash}{6d0e1a75b4975b2fd79290ee8f383efa}
+      \strng{bibnamehash}{6d0e1a75b4975b2fd79290ee8f383efa}
+      \strng{authorbibnamehash}{6d0e1a75b4975b2fd79290ee8f383efa}
+      \strng{authornamehash}{6d0e1a75b4975b2fd79290ee8f383efa}
+      \strng{authorfullhash}{6d0e1a75b4975b2fd79290ee8f383efa}
+      \field{labelalpha}{NH08}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{ACM} Transactions on Graphics}
+      \field{month}{12}
+      \field{number}{5}
+      \field{title}{Random-access rendering of general vector graphics}
+      \field{volume}{27}
+      \field{year}{2008}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/1409060.1409088
+      \endverb
+    \endentry
+    \entry{Rougier2014}{article}{}
+      \name{author}{1}{}{%
+        {{hash=75c00f0c05731e74db1167b4a8fe5936}{%
+           family={Rougier},
+           familyi={R\bibinitperiod},
+           given={Nicolas\bibnamedelima P.},
+           giveni={N\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Williams College}%
+      }
+      \strng{namehash}{75c00f0c05731e74db1167b4a8fe5936}
+      \strng{fullhash}{75c00f0c05731e74db1167b4a8fe5936}
+      \strng{bibnamehash}{75c00f0c05731e74db1167b4a8fe5936}
+      \strng{authorbibnamehash}{75c00f0c05731e74db1167b4a8fe5936}
+      \strng{authornamehash}{75c00f0c05731e74db1167b4a8fe5936}
+      \strng{authorfullhash}{75c00f0c05731e74db1167b4a8fe5936}
+      \field{labelalpha}{Rou14}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{Journal of Computer Graphics Techniques}}
+      \field{number}{4}
+      \field{title}{{Antialiased 2D Grid, Marker, and Arrow Shaders}}
+      \field{volume}{3}
+      \field{year}{2014}
+      \true{nocite}
+      \field{pages}{52}
+      \range{pages}{1}
+      \verb{file}
+      \verb https://hal.archives-ouvertes.fr/hal-01081592/file/paper.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://hal.archives-ouvertes.fr/hal-01081592
+      \endverb
+      \verb{url}
+      \verb https://hal.archives-ouvertes.fr/hal-01081592
+      \endverb
+    \endentry
+    \entry{Chlumsky2015}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=6e0b2efa9aa2f3f9220dcc3a8ade8694}{%
+           family={Chlumsky},
+           familyi={C\bibinitperiod},
+           given={Viktor},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Czech Technical University in Prague}%
+      }
+      \strng{namehash}{6e0b2efa9aa2f3f9220dcc3a8ade8694}
+      \strng{fullhash}{6e0b2efa9aa2f3f9220dcc3a8ade8694}
+      \strng{bibnamehash}{6e0b2efa9aa2f3f9220dcc3a8ade8694}
+      \strng{authorbibnamehash}{6e0b2efa9aa2f3f9220dcc3a8ade8694}
+      \strng{authornamehash}{6e0b2efa9aa2f3f9220dcc3a8ade8694}
+      \strng{authorfullhash}{6e0b2efa9aa2f3f9220dcc3a8ade8694}
+      \field{extraname}{1}
+      \field{labelalpha}{Chl15}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{Shape decomposition for multi-channel distance fields}
+      \field{type}{mathesis}
+      \field{year}{2015}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://dspace.cvut.cz/bitstream/handle/10467/62770/F8-DP-2015-Chlumsky-Viktor-thesis.pdf
+      \endverb
+      \verb{url}
+      \verb https://dspace.cvut.cz/bitstream/handle/10467/62770/F8-DP-2015-Chlumsky-Viktor-thesis.pdf
+      \endverb
+    \endentry
+    \entry{Phillips2020}{book}{}
+      \name{author}{1}{}{%
+        {{hash=153346ef3e77719cdaa49ab7ce02dcdb}{%
+           family={Phillips},
+           familyi={P\bibinitperiod},
+           given={Lee},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Alogus Publishing (a division of the Alogus Research Corporation)}%
+      }
+      \strng{namehash}{153346ef3e77719cdaa49ab7ce02dcdb}
+      \strng{fullhash}{153346ef3e77719cdaa49ab7ce02dcdb}
+      \strng{bibnamehash}{153346ef3e77719cdaa49ab7ce02dcdb}
+      \strng{authorbibnamehash}{153346ef3e77719cdaa49ab7ce02dcdb}
+      \strng{authornamehash}{153346ef3e77719cdaa49ab7ce02dcdb}
+      \strng{authorfullhash}{153346ef3e77719cdaa49ab7ce02dcdb}
+      \field{labelalpha}{Phi20}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Second}
+      \field{isbn}{978-0-692-92716-8}
+      \field{title}{Gnuplot 5}
+      \field{year}{2020}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://alogus.com/publishing/
+      \endverb
+      \verb{url}
+      \verb https://alogus.com/publishing/
+      \endverb
+    \endentry
+    \entry{msdfgen2021}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=6e0b2efa9aa2f3f9220dcc3a8ade8694}{%
+           family={Chlumsky},
+           familyi={C\bibinitperiod},
+           given={Viktor},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {GitHub}%
+      }
+      \strng{namehash}{6e0b2efa9aa2f3f9220dcc3a8ade8694}
+      \strng{fullhash}{6e0b2efa9aa2f3f9220dcc3a8ade8694}
+      \strng{bibnamehash}{6e0b2efa9aa2f3f9220dcc3a8ade8694}
+      \strng{authorbibnamehash}{6e0b2efa9aa2f3f9220dcc3a8ade8694}
+      \strng{authornamehash}{6e0b2efa9aa2f3f9220dcc3a8ade8694}
+      \strng{authorfullhash}{6e0b2efa9aa2f3f9220dcc3a8ade8694}
+      \field{extraname}{2}
+      \field{labelalpha}{Chl21}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{GitHub repository}
+      \field{month}{12}
+      \field{title}{Multi-channel signed distance field generator}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://github.com/Chlumsky/msdfgen
+      \endverb
+      \verb{url}
+      \verb https://github.com/Chlumsky/msdfgen
+      \endverb
+    \endentry
+    \entry{cgv2021}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9a055d0721f28b59a958d8abaa91dba0}{%
+           family={Gumhold},
+           familyi={G\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {GitHub}%
+      }
+      \strng{namehash}{9a055d0721f28b59a958d8abaa91dba0}
+      \strng{fullhash}{9a055d0721f28b59a958d8abaa91dba0}
+      \strng{bibnamehash}{9a055d0721f28b59a958d8abaa91dba0}
+      \strng{authorbibnamehash}{9a055d0721f28b59a958d8abaa91dba0}
+      \strng{authornamehash}{9a055d0721f28b59a958d8abaa91dba0}
+      \strng{authorfullhash}{9a055d0721f28b59a958d8abaa91dba0}
+      \field{labelalpha}{Gum21}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{GitHub repository}
+      \field{month}{6}
+      \field{title}{{T}he {C}omputer {G}raphics and {V}isualization {F}ramework}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://github.com/sgumhold/cgv
+      \endverb
+      \verb{url}
+      \verb https://github.com/sgumhold/cgv
+      \endverb
+    \endentry
+    \entry{Inigo}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=00f9bcdad45f435417911d040feff60a}{%
+           family={Quilez},
+           familyi={Q\bibinitperiod},
+           given={Inigo},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{00f9bcdad45f435417911d040feff60a}
+      \strng{fullhash}{00f9bcdad45f435417911d040feff60a}
+      \strng{bibnamehash}{00f9bcdad45f435417911d040feff60a}
+      \strng{authorbibnamehash}{00f9bcdad45f435417911d040feff60a}
+      \strng{authornamehash}{00f9bcdad45f435417911d040feff60a}
+      \strng{authorfullhash}{00f9bcdad45f435417911d040feff60a}
+      \field{labelalpha}{Qui22}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://iquilezles.org/articles/}}
+      \field{title}{{I}nigo {Q}uilez {A}rticles}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://iquilezles.org/articles/
+      \endverb
+      \verb{url}
+      \verb https://iquilezles.org/articles/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,17 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'main.blg'
+[47] biber:340> INFO - === Mo Aug  8, 2022, 20:14:19
+[56] Biber.pm:418> INFO - Reading 'main.bcf'
+[105] Biber.pm:969> INFO - Using all citekeys in bib section 0
+[114] Biber.pm:4383> INFO - Processing section 0
+[122] Biber.pm:4574> INFO - Looking for bibtex file '../bib/references.bib' for section 0
+[122] bibtex.pm:1713> INFO - LaTeX decoding ...
+[129] bibtex.pm:1518> INFO - Found BibTeX data source '../bib/references.bib'
+[191] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[191] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[191] Biber.pm:4203> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'de-DE'
+[191] Biber.pm:4209> INFO - No sort tailoring available for locale 'de-DE'
+[198] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[201] bbl.pm:757> INFO - Output to main.bbl
+[201] Biber.pm:130> WARN - legacy month field 'dec' in entry 'Nehab2008' is not an integer - this will probably not sort properly.
+[201] Biber.pm:132> INFO - WARNINGS: 1

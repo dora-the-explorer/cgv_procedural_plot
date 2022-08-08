@@ -3,3 +3,12 @@
 {\chapter{Background}}
 \label{sec:background}
 
+\section{CGV Framework}
+Die zu dieser Arbeit begleitende Implementation wird als Plugin für das CGV Framework\cite{cgv2021} der Professur für Computergraphik und Visualisierung an der Technischen Universität Dresden entwickelt.
+Im weiteren Verlauf der Arbeit wird CGV-Framework mit CGVF abgekürzt.
+Das Framework ist im Kern eine OpenGL basierte Render-Engine mit eingebauter Mausteuerung und einer Schnittstelle zur einfachen Umsetzung von rudimentären User-Interface-Elementen. Zudem verfügt das Framework über zahlreiche, modulare Zusatzbibliotheken.
+
+\section{Signed-Distance-Fields}
+Signed-Distance-Fields (SDFs) sind Mathematische Felder, die die Distanz zur Umrandung einer geometrischen Form angeben. Null wäre dabei genau auf der Kante, negative Werte bilden die Distanz ins Innere der Form ab und positive Werte die Distanz nach Außen.
+Diese SDFs können mit Hilfe einer Signed-Distance-Function angegeben werden.
+Das ist eine Funktion, die eine Position im Raum als Eingabe nimmt und den entsprechenden Distanzwert als Ausgabe zurück gibt.

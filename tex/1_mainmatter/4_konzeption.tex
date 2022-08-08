@@ -1,0 +1,22 @@
+\iflanguage{ngerman}
+{\chapter{Konzeption}}
+{\chapter{Concept}}
+\label{sec:concept}
+
+\section{Referenzsystem}
+Alle Elemente des Plots, die auf der zugrunde liegenden Geometrie dargestellt werden brauchen zur Bestimmung ihrer Position ein Referenzsystem.
+Dieses Referenzsystem ist im Texturraum der Geometrie.
+Also können wir z.B. die UV-Koordinaten nutzen, die uns GLSL bereitstellt.
+Der UV-Koordinatenraum erstreckt sich von (0.0, 0.0) zu (1.0, 1.0).
+Ich bevorzuge jedoch ein Referenzsystem, das sich von (-1.0, -1.0) bis (1.0, 1.0) erstreckt und bei dem der Punkt (0.0, 0.0) genau in der Mitte liegt.
+Das ist auch das Referenzsystem von dem Ich in der restlichen Arbeit ausgehen werde.
+
+\section{Graphen}
+Es soll die Möglichkeit geben, statt nur einzelner Punkte, auch Kontinuierliche Graphenlinien zu Zeichnen.
+Der einfachste Weg so eine Linie darzustellen ist, das einfache erzeugen eines Liniensegments zwischen zwei, nebeneinander liegenden Punkten im Datensatz für den Graphen.
+
+\section{Interaktion}
+Die Implementierte Demo soll dem Nutzer die Möglichkeit geben beliebig viele Graphen im selben Plot darzustellen und diese auch individuell anpassen zu können.
+Der Nutzer muss auch in der Lagen sein im 3D-Raum mit dem Plot zu interagieren durch einen adaptive Grid-Auflösung, die sich an der Distanz zur Kamera orientiert.
+
+\section{Dekoration}
