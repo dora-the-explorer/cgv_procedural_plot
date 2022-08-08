@@ -4,6 +4,16 @@
 
 \label{sec:introduction}
 
-
+Traditionell werden Plots in der Computergraphik aus Einzelteilen zusammen gebaut.
+Dabei hat jedes Element im Plot eine eigene Geometrie, eine Achse ist zum Beispiel ein sehr langes Rechteck.
+Diese Darstellung hat einige schwierige Probleme, wie z.B. Z-Fighting.
+Dabei entstehen visuelle Artefakte bei Elementen die sich direkt Überlappen.
+Ein anderes Problem ist, dass bei der Darstellung von Echtzeitdaten, sämtliche Geometrien neu berechnet werden müssen.
+Weniger ein Problem als eine neutrale Tatsache ist, dass diese Traditionellen Plot-Renderer die CPU stärker beanspruchen, um die Geometrieformen zu berechnen.
+\par
+Die in dieser Arbeit betrachtete Alternative, ist das vollständige Generieren von Plots im Fragment-Shader.
+Dabei werden alle Elemente des Plots im Texturraum und auf Fragmentbasis erzeugt.
+Z-Fighting ist damit komplett irrelevant und die Performance bleibt beim nachladen von neuen Elementen gleich.
+Zudem verlagert dieser Ansatz fast alle Arbeit von CPU auf die GPU, was für manche Anwendungsfälle von Nutzen sein kann.
 
 

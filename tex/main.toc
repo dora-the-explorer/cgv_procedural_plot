@@ -1,10 +1,7 @@
 \babel@toc {ngerman}{}\relax 
 \babel@toc {ngerman}{}\relax 
-\contentsline {chapter}{\nonumberline Zusammenfassung}{VII}{section*.7}%
-\babel@toc {english}{}\relax 
-\contentsline {chapter}{\nonumberline Abstract}{VII}{section*.8}%
-\babel@toc {ngerman}{}\relax 
-\contentsline {chapter}{\nonumberline Symbole und Abkürzungen}{XI}{chapter*.10}%
+\contentsline {chapter}{\nonumberline Zusammenfassung}{VII}{section*.6}%
+\contentsline {chapter}{\nonumberline Symbole und Abkürzungen}{XI}{chapter*.8}%
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Grundlagen}{3}{chapter.2}%
 \contentsline {section}{\numberline {2.1}CGV Framework}{3}{section.2.1}%
@@ -12,34 +9,40 @@
 \contentsline {chapter}{\numberline {3}Verwandte Arbeiten}{5}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Vektor-Graphik}{5}{section.3.1}%
 \contentsline {chapter}{\numberline {4}Konzeption}{7}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Referenzsystem}{7}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Graphen}{7}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Interaktion}{7}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Dekoration}{7}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Methoden und Umsetzung}{9}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Einbindung in das Framework}{9}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Rectangle-Renderer}{9}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Shader-Programm}{10}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Übermittlung an den Shader}{10}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Compiler-Defines}{11}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}Uniform-Variablen}{11}{subsection.5.4.2}%
-\contentsline {subsection}{\numberline {5.4.3}Shader-Storage-Buffer}{12}{subsection.5.4.3}%
-\contentsline {section}{\numberline {5.5}SDF-Implementationen}{13}{section.5.5}%
-\contentsline {subsection}{\numberline {5.5.1}Anti-Aliasing}{13}{subsection.5.5.1}%
-\contentsline {section}{\numberline {5.6}Koordinatensystem}{14}{section.5.6}%
-\contentsline {section}{\numberline {5.7}Darstellung von Graphen}{14}{section.5.7}%
-\contentsline {subsection}{\numberline {5.7.1}Liniensegmente}{15}{subsection.5.7.1}%
-\contentsline {subsection}{\numberline {5.7.2}Parallelogrammsegmente}{15}{subsection.5.7.2}%
-\contentsline {subsection}{\numberline {5.7.3}Binärsuche}{15}{subsection.5.7.3}%
-\contentsline {chapter}{\numberline {6}Ergebnisse}{17}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Software-Interface}{17}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Nutzer-Interface}{17}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Graphen-Darstellung}{18}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Liniensegmente und Parallelogrammsegmente}{18}{subsection.6.3.1}%
-\contentsline {section}{\numberline {6.4}Grid}{20}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Andere Dekorationen}{21}{section.6.5}%
-\contentsline {section}{\numberline {6.6}Performance}{21}{section.6.6}%
-\contentsline {subsection}{\numberline {6.6.1}SDF}{21}{subsection.6.6.1}%
-\contentsline {subsection}{\numberline {6.6.2}Binärsuche bei Segmenten}{21}{subsection.6.6.2}%
-\contentsline {chapter}{\numberline {7}Fazit und Ausblick}{23}{chapter.7}%
+\contentsline {section}{\numberline {4.1}Framework}{7}{section.4.1}%
+\contentsline {section}{\numberline {4.2}SDFs}{7}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Referenzsystem}{7}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Graphen}{7}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Dekoration}{8}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Grid}{8}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Tickmarks}{9}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Färbung}{9}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}Beschriftung}{9}{subsection.4.5.4}%
+\contentsline {section}{\numberline {4.6}Raumtransformation}{10}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Interaktion}{10}{section.4.7}%
+\contentsline {chapter}{\numberline {5}Methoden und Umsetzung}{11}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Einbindung in das Framework}{11}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Rectangle-Renderer}{11}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Shader-Programm}{12}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Übermittlung an den Shader}{12}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Compiler-Defines}{13}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Uniform-Variablen}{13}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Shader-Storage-Buffer}{14}{subsection.5.4.3}%
+\contentsline {section}{\numberline {5.5}SDF-Implementationen}{15}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Anti-Aliasing}{15}{subsection.5.5.1}%
+\contentsline {section}{\numberline {5.6}Koordinatensystem}{16}{section.5.6}%
+\contentsline {section}{\numberline {5.7}Darstellung von Graphen}{16}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}Liniensegmente}{17}{subsection.5.7.1}%
+\contentsline {subsection}{\numberline {5.7.2}Parallelogrammsegmente}{17}{subsection.5.7.2}%
+\contentsline {chapter}{\numberline {6}Ergebnisse}{19}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Software-Interface}{19}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Nutzer-Interface}{19}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Graphen-Darstellung}{20}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Liniensegmente und Parallelogrammsegmente}{20}{subsection.6.3.1}%
+\contentsline {section}{\numberline {6.4}Grid}{22}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Andere Dekorationen}{23}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Performance}{23}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1}SDF}{23}{subsection.6.6.1}%
+\contentsline {subsection}{\numberline {6.6.2}Binärsuche bei Segmenten}{23}{subsection.6.6.2}%
+\contentsline {chapter}{\numberline {7}Fazit und Ausblick}{25}{chapter.7}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

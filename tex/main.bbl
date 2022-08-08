@@ -84,7 +84,6 @@
       \field{booktitle}{{ACM} {SIGGRAPH} 2007 courses on - {SIGGRAPH} {'}07}
       \field{title}{Improved alpha-tested magnification for vector textures and special effects}
       \field{year}{2007}
-      \true{nocite}
       \verb{doi}
       \verb 10.1145/1281500.1281665
       \endverb
@@ -122,7 +121,6 @@
       \field{title}{Random-access rendering of general vector graphics}
       \field{volume}{27}
       \field{year}{2008}
-      \true{nocite}
       \field{pages}{1\bibrangedash 10}
       \range{pages}{10}
       \verb{doi}
@@ -230,7 +228,6 @@
       \field{isbn}{978-0-692-92716-8}
       \field{title}{Gnuplot 5}
       \field{year}{2020}
-      \true{nocite}
       \verb{urlraw}
       \verb https://alogus.com/publishing/
       \endverb
@@ -265,7 +262,6 @@
       \field{month}{12}
       \field{title}{Multi-channel signed distance field generator}
       \field{year}{2021}
-      \true{nocite}
       \verb{urlraw}
       \verb https://github.com/Chlumsky/msdfgen
       \endverb

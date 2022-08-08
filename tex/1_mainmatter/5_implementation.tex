@@ -305,6 +305,7 @@ Alle weiteren Implementationen werden diese Plot-Raum-Position des Fragments nut
 
 
 \section{Darstellung von Graphen}
+\label{sec:binary}
 Alle Graphen, die durch den SSB in den Shader geladen wurden, werden übereinander dargestellt.
 Ein Graph wird dabei aus einzelnen Segmenten zusammengesetzt, diese Segmente bestehen jeweils aus einer SDF.
 Dafür muss für jedes Fragment geprüft werden, ob sich das Fragment in einem der Segmente befindet.
@@ -318,6 +319,22 @@ Eine Möglichkeit ist es Liniensegmente, wie in Abbildung \ref{fig:linie} und im
 	\label{fig:linie}
 \end{figure}
 \FloatBarrier
+Bei den Liniensegmenten ist eine einfache Binärsuche nicht möglich.
+Am Start- und Zielpunkt des Segments sieht man, dass das Segment über die X-Grenzen hinaus ragt.
+Das heißt, dass sich die Segmente überlappen, darauf gehe Ich in der Auswertung in Abschnitt \ref{sec:flaws} näher ein.
+Das schlimmste ist, dass sich die Überlappung beim vergrößern der Linienstärke mit vergrößert.
+Daher reicht eine einfache Binärsuche nicht und es muss überprüft werden wie viele Segmente sich überlappen können.
+Die Berechnung zu dieser Anzahl 'd' ist in Abbildung \ref{fig:code_overlap} gezeigt.
+Eine Überlappung mit den direkten Nachbarn gibt es dabei immer.
+\begin{figure}[ht]
+	\begin{lstlisting}[language=GLSL]
+ddx = x_next-x;
+int d = int(max(ceil(segment_width/ddx), 1))+1;
+	\end{lstlisting}
+	\caption{procedural\_plot.glfs maximale Überlappungen an einer Seite}
+	\label{fig:code_overlap}
+\end{figure}
+\FloatBarrier
 
 
 \subsection{Parallelogrammsegmente}
@@ -329,7 +346,6 @@ Eine andere Möglichkeit ist es Parallelogrammsegmente, wie in Abbildung \ref{fi
 	\label{fig:parallelogramm}
 \end{figure}
 \FloatBarrier
+Bei den Parallelogrammsegmenten funktioniert auch eine einfache Binärsuche.
 
-\subsection{Binärsuche}
-\label{sec:binary}
 
